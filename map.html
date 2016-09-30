@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- my links -->
+   
+    <link rel="stylesheet" href="map.css">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+  
+
+    <title>Assessment 3/Maps</title>
+
+    <!-- Nav Bar -->
+    
+    <!-- end of navbar -->
+
+</head>
+
+<body>
+    <style>
+body {
+    background-image: url("map.jpg");
+}
+</style>
+
+<!-- Directions -->
+<center><h1 style="text-shadow: 1px 1px 1px white"><u>Looking for directions?</u></h1>
+
+     <form action="http://maps.google.com/maps" method="get" target="_blank">
+   <label for="saddr" style="font-size: 1em; text-shadow: 1px 1px 1px white"><b>GET DIRECTIONS</b></label>
+   <input type="text" name="saddr" placeholder="enter zip, city&state"/>
+   <input type="hidden" name="daddr" value="paintsville, ky" />
+   <input type="submit" value="Get directions" style="text-shadow: 0px 1px 0px black; box-shadow: 0px 1px 0px black;" />
+</form>
+</center>
+
+<center> 
+    <div style="margin-top: 40px">  
+     <form style="margin-bottom: 40px; text-shadow: 1px 1px 1px white"> <b>SEARCH MAP BELOW </b>
+          <input type="text" id="lookup" style="height: 20px" placeholder="coming soon">
+          <button type="button" id="add" style="height: 30px; background-color:brown"><span style="text-shadow: 1px 1px 1px white; font-size: 1.5em">Locate</span>  </button>
+      </form> 
+    <div id="map" style="width:35%;height:500px;"></div>
+</center>
+</div>
+<!-- My scripts -->
+
+    <script type="text/javascript" src="map.js"></script>
+  
+    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+       
+
+</body>
+
+</html>
+

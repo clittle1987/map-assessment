@@ -1,0 +1,19 @@
+
+.navBar {
+    border-style: solid;
+    border-width: 2px;
+    border-color: slategrey;
+    width: 100%;
+
+    background: slategrey;
+    box-shadow: 4px 4px 4px black;
+    text-shadow: 4px 4px 4px black;
+}
+   html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
